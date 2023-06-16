@@ -125,6 +125,39 @@ header {
   background-image: url(img/webcamp-mother.png);
 }
 
+/* section feature*/
+#feature {
+  text-align: center;
+  padding: 90px 0;
+  color: #000000;
+}
+
+.strength-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.strength {
+  width: 320px;
+  margin-right: 10px;
+}
+.strength:nth-child(3){
+  margin-right: 0px;
+}
+
+.strength-icon {
+  font-size: 60px;
+}
+
+.strength-title {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.strength-text {
+  font-size: 16px;
+}
+
 /* タブレット縦置きサイズ（768px）以下の際に適用される設定 */
 @media screen and (max-width:768px) {
   header {
