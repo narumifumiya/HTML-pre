@@ -158,6 +158,38 @@ header {
   font-size: 16px;
 }
 
+/* section profile*/
+#profile {
+  text-align: center;
+  padding: 90px 0;
+  color: #000000;
+  background-color: #ECEFF1;
+}
+
+.profile-container {
+  display: flex;
+}
+
+.profile-box {
+  width: 512px;
+}
+.profile-image {
+  width: 250px;
+  height: 250px;
+  border-radius:50%;
+}
+
+.profile-title {
+  font-size: 20px;
+  text-align: left;
+}
+
+.profile-text {
+  font-size: 16px;
+  margin: 5px 0 20px 0;
+  text-align: left;
+}
+
 /* タブレット縦置きサイズ（768px）以下の際に適用される設定 */
 @media screen and (max-width:768px) {
   header {
