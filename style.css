@@ -235,6 +235,19 @@ header {
   margin: 0 auto;
 }
 
+/* footer */
+footer {
+  background-color: #EC715F;
+  height: 60px;
+  width: 100%;
+  text-align: center;
+}
+footer p {
+  font-size: 16px;
+  color:#FAFAFA;
+  line-height: 60px;
+}
+
 /* タブレット縦置きサイズ（768px）以下の際に適用される設定 */
 @media screen and (max-width:768px) {
   header {
