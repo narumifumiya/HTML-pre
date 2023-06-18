@@ -190,6 +190,13 @@ header {
   text-align: left;
 }
 
+/* section contact*/
+#contact {
+  text-align: center;
+  padding: 90px 0;
+  color: #000000;
+}
+
 /* タブレット縦置きサイズ（768px）以下の際に適用される設定 */
 @media screen and (max-width:768px) {
   header {
